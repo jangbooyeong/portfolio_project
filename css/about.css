@@ -1,0 +1,83 @@
+.path2 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.drow__handcomputer {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.svg_m {
+  display: none;
+}
+
+.section__black {
+  color: #000;
+  position: relative;
+}
+
+.about__section {
+  margin-top: -30%;
+}
+
+.about__about-box {
+  border-left: 1px solid #000;
+}
+
+.about__sub-item {
+  padding: 4.79% 4.79% 8.79% 4.79%;
+}
+
+.about__sub-item strong {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 0 10px;
+  border-radius: 15px;
+  background-color: #d2d2d2;
+}
+
+.about__sub-item p {
+  font-size: 19px;
+  font-weight: normal;
+}
+
+
+@media (max-width:1491px) {
+  .about__sub-item p {
+    font-size: 17px;
+  }
+} 
+
+@media (max-width:1291px) {
+  .about__sub-item p {
+    font-size: 15px;
+  }
+} 
+
+@media (max-width:991px) {
+  .svg_pc {
+    display: none;
+  }
+  .svg_m {
+    display: inline;
+  }
+  .col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .about__section {
+    margin-top: 0;
+  }
+  .about__sub-item strong {
+    font-size: 17px;
+  }
+  .path2M {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2px;
+  }
+}

@@ -1,0 +1,70 @@
+.contenetImage__camera {
+  position: relative;
+  background-image: url('../images/Camera.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 56.8%;
+}
+
+.contenetImage__rotate {
+  position: absolute;
+  bottom: 0;
+  margin-left: 2.4%;
+  margin-bottom: 5.25%;
+  height: 575px;
+}
+
+.contenetImage__rotate-item {
+  width: 575px;
+  height: 100%;
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+}
+
+.contenetImage__rotate-item > h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.drow__camera {
+  position: absolute;
+  width: 50vw;
+  top: 22%;
+  right: 0;
+}
+
+.path4 {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+@media (max-width: 1291px) {
+  .contenetImage__rotate {
+    height: 435px;
+  }
+  
+  .contenetImage__rotate-item {
+    width: 435px;
+  }
+  .contenetImage__rotate-item > h1 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 991px) {
+  .contenetImage__rotate-item > h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 758px) {
+  .contenetImage__rotate {
+    height: 245px;
+  }
+  
+  .contenetImage__rotate-item {
+    width: 245px;
+  }
+  .contenetImage__rotate-item > h1 {
+    font-size: 24px;
+  }
+}

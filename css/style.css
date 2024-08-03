@@ -1,0 +1,87 @@
+@import url('./header.css');
+@import url('./home.css');
+@import url('./about.css');
+@import url('./skill.css');
+@import url('./contenetImage.css');
+@import url('./project.css');
+@import url('/css/contact.css');
+@import url('/css/topButton.css');
+/* 웹폰트 로드 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-Montserrat: 'Montserrat', monospace;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+
+  /* 개발용 설정 */
+  min-height: 300vh;
+}
+
+h2, figure, dl, dt, dd {
+	margin: 0;
+}
+a{
+	margin: 0;
+	text-decoration: inherit;
+	color: inherit;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+strong {
+	font-weight: inherit;
+}
+svg {
+	width: 100%;
+	height: 100%;
+}
+
+.border__left {
+	border-left: 1px solid #fff;
+}
+
+/* 스크린리더용 */
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+/* 페이드인 위로 올라오는 클래스 설정 및 클래스 생성 */
+.fade__wrap-Y {
+  transform: translateY(15%);
+  opacity: 0;
+  transition: 1s;
+}
+
+.fade__wrap-Y.fade-in {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* 페이드인 옆으로 들어오는 클래스 설정 및 클래스 생성 */
+.fade__wrap-X {
+	transform: translateX(-15%);
+	opacity: 0;
+	transition: 1s;
+}
+
+.fade__wrap-X.fade-right {
+	transform: translateX(0);
+	opacity: 1;
+}

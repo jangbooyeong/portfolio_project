@@ -1,0 +1,175 @@
+.section__white {
+  position: relative;
+  background-color: #313131;
+  color: #fff;
+}
+
+/* 왼쪽 레이아웃 스타일 */
+.home__rotate-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 1080px;
+}
+
+.home__rotate {
+  width: 300px;
+  height: 720px;
+  margin: 100px 0;
+  padding-left: 3.5%;
+}
+
+.home__rotare-item {
+  width: 720px;
+  height: 100%;
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+}
+
+.home__rotare-item h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.home__rotare-item ul {
+  display: flex;
+  gap: 45px;
+}
+
+.home__rotare-item ul li {
+  font-size: 24px;
+}
+
+/* 오른쪽 레이아웃 스타일 */
+.home__readmore-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-left: 1px solid #fff;
+  height: 1080px;
+}
+
+.home__sub-item {
+  padding: 100px 7.66%;
+  text-align: left;
+}
+
+.home__sub-item p {
+  margin-bottom: 38px;
+  font-size: 19px;
+}
+
+.home__sub-item a {
+  position: relative;
+  padding-bottom: 12px;
+  font-size: 28px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+
+.home__sub-item span {
+  background: url(../images/after.png) no-repeat;
+  width: 68px;
+  height: 18px;
+  display: inline-block;
+  margin-left: 32px;
+}
+
+/* 마우스오버효과 */
+.home__sub-item a::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  top: 100%;
+  left: 0;
+  background: #f91900;
+  transition: transform 0.3s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.home__sub-item a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.drow__codingMan {
+  width: 35vw;
+  position: absolute;
+  left: 23.7%;
+  bottom: 0;
+}
+
+.path1 {
+  fill: none;
+  stroke: #fff;  
+  stroke-width: 2px;
+}
+
+/* 모바일 환경 */
+@media (max-width: 991px) {
+  /* 우선순위 */
+  .orders-1 {
+    order: 1;
+  }
+
+  .orders-2 {
+    order: 2;
+  }
+
+  .col-8 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .home-section {
+    padding: 140px 0 60px;
+  }
+
+  .home__readmore-box {
+    height: auto;
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .home__sub-item {
+    padding: 24px 0;
+  }
+
+  .home__rotate-box {
+    height: auto;
+    margin: 24px 0;
+  }
+
+  .home__rotate {
+    width: 100%;
+    height: 470px;
+    margin: 0;
+  }
+
+  .home__rotare-item {
+    width: 470px;
+    height: 100%;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+  }
+
+  .home__rotare-item h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .home__rotare-item ul {
+    gap: 35px;
+  }
+  
+  .home__rotare-item ul li {
+    font-size: 19px;
+  }
+
+  .drow__codingMan {
+    width: 50vw;
+    left: 38.5%;
+  }
+}

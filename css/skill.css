@@ -1,0 +1,128 @@
+.path3 {
+  stroke: #fff;
+  fill:none;
+  stroke-width: 2px;
+}
+
+.skill_header {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
+.skill_header-imgbox > ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.skill_header-imgbox > ul > li {
+  padding: 2.5% 1.25%;
+}
+
+.skill_header-titlebox {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #fff;
+}
+
+.skill_header-titlebox > h2 {
+  width: 100%;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.skill_section-titlebox {
+  padding: 7.79% 3.5%;
+}
+
+.skill_section-titlebox > p {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+.skill_section-titlebox > dl:nth-child(2) {
+  margin-bottom: 8.5%;
+}
+
+.skill_section-titlebox > dl > dt {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 9.5px;
+}
+
+.skill_section-titlebox > dl > dd {
+  font-size: 19px;
+  font-weight: normal;
+  margin-bottom: 38px;
+}
+
+.skill__section-list {
+  position: relative;
+  border-left: 1px solid #fff;
+}
+
+.skill_section-imgbox {
+  padding: 14.30% 7.15%;
+}
+
+.skill_section-imgitem {
+  text-align: center;
+}
+
+.skill_section-imgitem > img {
+  width: 50%;
+}
+
+.drow__phone {
+  position: absolute;
+  width: 28vw;
+  right: 0;
+}
+
+@media (max-width:1491px) {
+  .skill_section-titlebox > p {
+    font-size: 23px;
+  }
+  .skill_section-titlebox > dl > dt {
+    font-size: 18px;
+  }
+  .skill_section-titlebox > dl > dd {
+    font-size: 18px;
+  }
+} 
+
+@media (max-width:1291px) {
+  .skill_section-titlebox > p {
+    font-size: 22px;
+  }
+  .skill_section-titlebox > dl > dt {
+    font-size: 17px;
+  }
+  .skill_section-titlebox > dl > dd {
+    font-size: 17px;
+  }
+} 
+@media (max-width: 991px) {
+  .skill_header-imgbox {
+    display: none;
+  }
+  .skill_header-titlebox {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 3% 0;
+  }
+  .skill__section-list {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .skill_section-imgbox {
+    display: none;
+  }
+  .drow__phone {
+    display: none;
+  }
+}
