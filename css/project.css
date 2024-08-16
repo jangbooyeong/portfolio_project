@@ -208,7 +208,13 @@
     margin: 0 auto;
     padding-bottom: 10%;
   }
-  
+}
+
+/* 모바일 환경 */
+@media (max-width:758px) {
+  .project__skill > li {
+    font-size: 14px;
+  }
 }
 
 
