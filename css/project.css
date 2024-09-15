@@ -212,6 +212,10 @@
 
 /* 모바일 환경 */
 @media (max-width:758px) {
+  .project__miniBlog > .project__skill > li {
+    display: flex;
+    align-items: center;
+  }
   .project__skill > li {
     font-size: 14px;
   }

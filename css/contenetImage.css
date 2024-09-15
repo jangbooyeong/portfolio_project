@@ -56,15 +56,20 @@
     font-size: 36px;
   }
 }
+
 @media (max-width: 758px) {
   .contenetImage__rotate {
-    height: 245px;
+    position: absolute;
+    height: 198px;
+    margin-bottom: 2.5%;
   }
   
   .contenetImage__rotate-item {
-    width: 245px;
+    width: 198px;
+    height: 100%;
   }
+  
   .contenetImage__rotate-item > h1 {
-    font-size: 24px;
+    font-size: 18px;
   }
 }

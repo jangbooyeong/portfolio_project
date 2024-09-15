@@ -173,3 +173,27 @@
     left: 38.5%;
   }
 }
+
+@media (max-width:758px) {
+  .home__rotate {
+    width: 100%;
+    height: 390px;
+  }
+
+  .home__rotare-item {
+    width: 390px;
+    height: 100%;
+  }
+
+  .home__rotare-item h1 {
+    font-size: 28px;
+  }
+
+  .home__rotare-item ul {
+    gap: 15px;
+  }
+  
+  .home__rotare-item ul li {
+    font-size: 16px;
+  }
+}
