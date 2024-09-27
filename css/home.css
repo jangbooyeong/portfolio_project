@@ -26,9 +26,10 @@
   -webkit-transform: rotate(270deg);
 }
 
-.home__rotare-item h1 {
+.home__rotare-item p {
   font-size: 56px;
   font-weight: bold;
+  line-height: 4rem;
 }
 
 .home__rotare-item ul {
@@ -155,9 +156,9 @@
     -webkit-transform: rotate(270deg);
   }
 
-  .home__rotare-item h1 {
+  .home__rotare-item p {
     font-size: 36px;
-    font-weight: bold;
+    line-height: 2.5rem;
   }
 
   .home__rotare-item ul {
@@ -185,8 +186,10 @@
     height: 100%;
   }
 
-  .home__rotare-item h1 {
+  .home__rotare-item p {
     font-size: 28px;
+    line-height: 2rem;
+    margin: 0.5rem;
   }
 
   .home__rotare-item ul {

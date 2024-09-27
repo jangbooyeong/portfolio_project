@@ -21,9 +21,10 @@
   -webkit-transform: rotate(270deg);
 }
 
-.contenetImage__rotate-item > h1 {
+.contenetImage__rotate-item > p {
   font-size: 56px;
   font-weight: bold;
+  line-height: 4rem;
 }
 
 .drow__camera {
@@ -47,13 +48,15 @@
   .contenetImage__rotate-item {
     width: 435px;
   }
-  .contenetImage__rotate-item > h1 {
+  .contenetImage__rotate-item > p {
     font-size: 42px;
+    line-height: 3rem;
   }
 }
 @media (max-width: 991px) {
-  .contenetImage__rotate-item > h1 {
+  .contenetImage__rotate-item > p {
     font-size: 36px;
+    line-height: 2.5rem;
   }
 }
 
@@ -69,7 +72,8 @@
     height: 100%;
   }
   
-  .contenetImage__rotate-item > h1 {
+  .contenetImage__rotate-item > p {
     font-size: 18px;
+    line-height: 1.2rem;
   }
 }

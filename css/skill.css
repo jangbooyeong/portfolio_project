@@ -35,7 +35,7 @@
   padding: 7.79% 3.5% 15.79%;
 }
 
-.skill_section-titlebox > p {
+.skill_section-titlebox > h3 {
   display: inline-block;
   font-size: 24px;
   font-weight: bold;
@@ -84,7 +84,7 @@
 }
 
 @media (max-width:1491px) {
-  .skill_section-titlebox > p {
+  .skill_section-titlebox > h3 {
     font-size: 23px;
   }
   .skill_section-titlebox > dl > dt {
@@ -96,7 +96,7 @@
 } 
 
 @media (max-width:1291px) {
-  .skill_section-titlebox > p {
+  .skill_section-titlebox > h3 {
     font-size: 22px;
   }
   .skill_section-titlebox > dl > dt {
