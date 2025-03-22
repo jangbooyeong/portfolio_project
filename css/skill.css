@@ -107,6 +107,9 @@
   }
 } 
 @media (max-width: 991px) {
+  .skill_header-titlebox {
+    border: none;
+  }
   .skill_header-imgbox {
     display: none;
   }
