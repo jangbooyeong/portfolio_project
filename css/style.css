@@ -45,6 +45,10 @@ svg {
 	height: 100%;
 }
 
+.row { 
+	--bs-gutter-x: none;
+}
+
 .border__left {
 	border-left: 1px solid #fff;
 }
