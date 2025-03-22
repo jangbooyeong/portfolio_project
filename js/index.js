@@ -39,6 +39,18 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
+const borderEvent1 = document.getElementById('borderEvent1');
+const borderEvent2 = document.getElementById('borderEvent2');
+window.addEventListener("resize", () => {
+    if (window.innerWidth < 992) {
+        borderEvent1.classList.remove('border__left');
+        borderEvent2.classList.remove('border__left');
+    } else {
+        borderEvent1.classList.add('border__left');
+        borderEvent2.classList.add('border__left');
+    };
+});
+
 // email Js 함수
 function SendMail() {
     let params = {
