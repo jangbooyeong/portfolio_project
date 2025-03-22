@@ -12,7 +12,7 @@
 }
 
 .container-fluid {
-  padding: 0;
+  padding: 0 12px;
 }
 
 .navbar-collapse {
@@ -114,8 +114,12 @@
   .nav-item a {
     font-size: 19px;
   }
-
-  .border__left {
+  
+  .header__logo {
     border: none;
+  }
+
+  .navbar-brand {
+    padding: 24px 12px;
   }
 }
