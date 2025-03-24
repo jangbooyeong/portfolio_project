@@ -16,6 +16,7 @@
 .section__black {
   color: #000;
   position: relative;
+  background-color: #dedede;
 }
 
 .about__section {
@@ -34,10 +35,12 @@
   display: inline-block;
   margin-bottom: 16px;
   font-size: 19px;
-  font-weight: 500;
+  line-height: 140%;
+  font-weight: normal;
   padding: 0 10px;
   border-radius: 15px;
-  background-color: #d2d2d2;
+  background-color: #828282;
+  color: #fff;
 }
 
 .about__sub-item p {
